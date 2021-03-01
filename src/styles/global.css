@@ -50,3 +50,33 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.navContainer {
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--white);
+  padding: 1rem 1rem;
+  align-items: center;
+}
+
+.navContainer img:hover {
+  cursor: pointer;
+}
+
+.navContainer div img {
+  width: 32px;
+  padding-bottom: 1rem;
+}
+
+.icon {
+  width: 48px;
+  padding-bottom: inherit;
+}
+
+.navContainer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
