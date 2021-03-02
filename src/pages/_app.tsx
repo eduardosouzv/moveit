@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div style={{ display: 'flex', flexDirection: 'row' }}>
       <NavBar />
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </div>
   );
 }
