@@ -68,7 +68,7 @@ a {
 .navContainer div img {
   width: 32px;
   padding-bottom: 1rem;
-  opacity: 0.5;
+  color: #5965e0;
 }
 
 .icon {
@@ -79,6 +79,6 @@ a {
 .navContainer div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   height: 100%;
 }
