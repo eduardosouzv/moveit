@@ -8,7 +8,6 @@ export default function NavBar() {
         <Link href="/">
           <img src="icons/home.svg" />
         </Link>
-        <img src="icons/moon.svg" style={{ width: '30px' }} />
       </div>
     </div>
   );
